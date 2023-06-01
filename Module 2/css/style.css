@@ -1,0 +1,119 @@
+/* Reset Browser */
+  * {
+	  margin: 0;
+	  padding: 0;
+  }
+
+
+/* Base Style */
+  * 
+  {
+    box-sizing: border-box;
+  }
+
+  body
+    {
+      padding: 1%;
+      font-family: 'Chivo', sans-serif;
+    }
+
+  h1
+  {
+    padding: 5%;
+    text-align: center;
+  }
+
+  /* Section Style */
+    section
+    {
+  	  background-color: gray;
+  	  width: 100%;
+  	  margin: 1%;
+  	  border: 1px solid black;
+  	  float: left;
+  	  position: relative;
+  	  padding: 20px;
+      padding-top: 50px;
+    }
+
+    h2, p {font-size: 20px;}
+
+    /* Section Title Style */ 
+      h2
+      {
+  	    position: absolute;
+        width: 150px;
+        padding: 5px;
+  	    border: 1px solid black;
+  	    top: 0;
+  	    right: 0;
+        text-align: center;
+      }
+
+      #item1 h2
+      {background-color: lightpink;}
+
+      #item2 h2
+      {
+        background-color: #c14543;
+        color: white;
+      }
+
+      #item3 h2
+      {background-color: palegoldenrod;}
+
+
+    /* Section Body Style */
+      p
+      { 
+        height: 120px;
+        padding: 3px;
+        overflow: hidden;
+      }
+
+
+/* Media Queries */
+
+  /* PC View */
+    @media (min-width: 992px)
+     {
+       section
+       {
+        width: 31.33%;
+       }
+     }
+
+
+  /* Tablet View */
+    @media (min-width: 768px) and (max-width: 991px)
+    {       
+       section
+       {
+        width: 47.5%;
+       }
+
+       #item3
+       {
+       	width: 97%;
+       }
+    }
+
+  /* Mobile View */
+    @media (max-width: 767px)
+    {
+       
+       section
+       {
+        width: 98%;
+        margin-bottom: 3%;
+        clear: both;
+       }
+
+       
+       body
+       {
+        margin-left: 5%;        
+        margin-right: 5%;
+       }
+
+    }
