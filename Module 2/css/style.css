@@ -30,10 +30,12 @@
   	  width: 100%;
   	  margin: 1%;
   	  border: 1px solid black;
-  	  float: left;
-  	  position: relative;
   	  padding: 20px;
       padding-top: 50px;
+      position: relative;
+      /* Point 8*/
+      /* Float Sections into One Row*/
+      float: left;
     }
 
     h2, p {font-size: 20px;}
@@ -72,6 +74,8 @@
       }
 
 
+
+/* Point 7*/
 /* Media Queries */
 
   /* PC View */
@@ -79,6 +83,9 @@
      {
        section
        {
+        /* Point 8*/
+        /* Set To Width of Browser: Width = (100-(Margin [1] x 6))/3 */
+        /* Margin of Section Set to 1% (Refer to line 31) */
         width: 31.33%;
        }
      }
