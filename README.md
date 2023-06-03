@@ -9,11 +9,11 @@ This repository contains my solutions to the Module Assignments for the Course H
 
 ---
 
-**Solution Website Links:**
+**Website Solution Links:**
 - [Module 2 Assignment](https://coursera-ck.github.io/webdev-jhu/Module%202/index.html)
 
 ‎ 
 
-**Solution Code Links:**
+**GitHub repository Links:**
 - [Module 2 Assignment](https://github.com/coursera-ck/webdev-jhu/tree/main/Module%202)
 
