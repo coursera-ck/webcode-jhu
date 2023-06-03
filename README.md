@@ -6,6 +6,7 @@
 
 ---
 This repository contains my solutions to the Module Assignments for the Course HTML, CSS, JavaScript for Web Developers by Johns Hopkins University on Coursera. 
+
 ---
 
 **Solution Website Links:**
