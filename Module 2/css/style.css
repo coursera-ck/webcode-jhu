@@ -1,61 +1,28 @@
-/* Thank you for reviewing my assignment. Please use Ctrl+F to search for Point [NUM] for your convenience to grade. */
-/* Some Point[NUM] may return multiple results. */
-
-/* Base Style */
+  /* Base Style */
   *
   {
    /* Reset Browser */
    margin: 0;
    paddings: 0;
 
-   /* Point 13*/
+   /* Layout */
    box=sizing: border-box;
 
-   /* Point 15 */
    /* Base Font Style */
    font-family: Chivo, sans-serif;
    font-size: 100%;
   }
 
 
+  /* Layout */
   .container
   {
-   /* Centralized Section */
-   margin-right: auto;
-   margin-left: auto;
+    /* Centralized Section */
+    margin-right: auto;
+    margin-left: auto;
   }
 
-
-  section
-  {
-    /* Point 12 */
-    /* Anchor Title Region */
-    position: relative;
-
-    /* Point 14 */
-    border: 1px solid black;
-
-   /* Spacing between section */
-   margin: 15px;
-
-   /* Overflow Control */
-   height: 155px;
-   overflow: hidden;
-   
-   /* Point 14 */
-   /* Section color */
-   background-color: #999999;
-  }
-
-
-  /* Point 13 */
-  /* Spacing between section and browser edge */
-  body
-  {padding: 15px;}
-
- 
-  /* Title Font Size */
-  /* Point 15 */
+  /* Page Title */
   h1
   {
     font-size: 1.75em;
@@ -63,25 +30,47 @@
     padding: 10px;
   }
 
+  section
+  {
+    /* Section Title Region: Anchor Title Region */
+    position: relative;
+
+    /* Border and Color */
+    border: 1px solid black;
+    background-color: #999999;
+
+    /* Spacing between section */
+   margin: 15px;
+
+    /* Overflow Control */
+   height: 155px;
+   overflow: hidden;
+  }
+
+
+  /* Layout: Spacing between section and browser edge */
+  body
+  {padding: 15px;}
+
+    
+  /* Section Title Region */
   h2
   { 
-    /* Point 12 */
+    /* Section Title Region: Pin Top Right */
     position: absolute;
     top: 0;
     right: 0;
     width: 100px;
 
-    /* Point 14 */
+    /* Section Region Title Region Style */
     border: 1px solid black;
-
-    /* Point 15 */
-    font-size: 1.25em;
-
-    /* Title region style */
-    text-align: center;
     padding: 4px;
+    font-size: 1.25em;
+    text-align: center;
   }
 
+
+  /* Section Body */
   p
   {
     padding: 10px;
@@ -89,27 +78,24 @@
   }
 
 
-/* Point 14 */
-/* Unique Section Title Style */
-#s1>h2
-{background-color: lightpink;}
+/* Unique Section Title Region Style */
+  #s1>h2
+  {background-color: lightpink;}
 
-#s2>h2
-{
- background-color: #c14543;
- color: whitesmoke;
-}
+  #s2>h2
+  {
+   background-color: #c14543;
+   color: whitesmoke;
+  }
 
-#s3>h2
-{background-color: palegoldenrod;}
-
+  #s3>h2
+  {background-color: palegoldenrod;}
 
 
-/* Point 7 */
+
 /* Simple Responsive Framework */
 .row {width: 100%}
 
-/* Point 9 */
 /* Desktop View */
 @media (min-width: 992px)
 {
@@ -132,7 +118,7 @@
   .col-lg-12 {width: 100%}
 }
 
-/* Point 10 */
+
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 991px)
 {
@@ -156,7 +142,6 @@
 }
 
 
-/* Point 11 */
 /* Mobile View */
 @media (max-width: 767px)
 {
