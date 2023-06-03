@@ -1,6 +1,6 @@
-## Assignment for WebDev Coursea by JHU
+### Assignment for WebDev Coursea by JHU
 
-#### HTML, CSS, JavaScript for Web Developers
+### HTML, CSS, JavaScript for Web Developers
 #### Johns Hopkins University
 #### Coursera
 
