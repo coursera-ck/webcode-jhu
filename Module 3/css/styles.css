@@ -1,0 +1,98 @@
+/* Base Style */
+/* Disable Horizontal Scrollin */
+html,body
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+/* Nav */
+#nav-header
+{
+    background-color: #17294E;
+}
+
+#brand-name
+{
+    margin-top: 15px;
+    color: White;
+    font-size: 1.75em;
+    font-weight: bold; 
+}
+
+#nav-button
+{
+    margin-top: 20px;
+    height: 40px;
+}
+
+#toggle-nav
+{
+    background-color: #2B4EA4;
+}
+
+
+/* Toggle Menu Font */
+#toggle-nav ul li a
+{
+    color: lightgray;
+}
+
+
+/* Body */
+body
+{
+    background-color: #1F2936;
+}
+
+.container
+{
+    margin: auto;
+    padding: auto;
+}
+
+h2
+{
+    color: #ADB5C5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+section
+{
+    margin: auto;
+}
+
+#Chicken,#Beef,#Sushi
+{
+    padding: auto;
+    margin: auto;
+    background-color: #060C18;
+    color: #ADB5C5;
+    height: 1000px;
+}
+
+#Chicken h3,#Beef h3,#Sushi h3
+{
+    color: #1950FF;
+    padding: 10px;
+}
+
+#Chicken p,#Beef p,#Sushi p
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#Chicken a,#Beef a,#Sushi a
+{
+    color: #7E50FF;
+}
