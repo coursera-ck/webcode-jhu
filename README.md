@@ -13,9 +13,11 @@ This repository contains my solutions to the Module Assignments for the Course H
 - [Module 2 Assignment](https://coursera-ck.github.io/webdev-jhu/Module%202/index.html)
 - [Module 3 Assignment](https://coursera-ck.github.io/webdev-jhu/Module%203/index.html)
 - [Module 4 Assignment](https://coursera-ck.github.io/webdev-jhu/Module%204/index.html)
+- [Module 5 Assignment](https://coursera-ck.github.io/webdev-jhu/Module%205/index.html)
 ‎ 
 
 **GitHub Repository Links:**
 - [Module 2 Assignment](https://github.com/coursera-ck/webdev-jhu/tree/main/Module%202)
 - [Module 3 Assignment](https://github.com/coursera-ck/webdev-jhu/tree/main/Module%203)
 - [Module 4 Assignment](https://github.com/coursera-ck/webdev-jhu/tree/main/Module%204)
+- [Module 5 Assignment](https://github.com/coursera-ck/webdev-jhu/tree/main/Module%205)
